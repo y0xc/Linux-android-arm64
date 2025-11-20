@@ -153,3 +153,5 @@ modules V=1
 /root/6.1/prebuilts/clang/host/linux-x86/clang-r487747c/bin/llvm-strip --strip-debug  /mnt/e/1.CodeRepository/Android/Kernel/6.1-lsdriver/lsdriver.ko
 /root/5.15/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug  /mnt/e/1.CodeRepository/Android/Kernel/5.15-lsdriver/lsdriver.ko
 ```
+
+找我: t.me/liaoshuangls
