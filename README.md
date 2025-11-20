@@ -98,6 +98,8 @@ if ((current_vaddr & PAGE_MASK) == loop_last_vpage_base) {
     - 4.直接解引用未被映射指针，这是使用数组的原因，应为直接传入指针作为缓冲区会直接非法内存访问
     - 5.极高的速度带来的是极高的性能消耗，大部分时间都是用户层处理数据过慢几乎无法跑满上限，导致一直空转，可增加延迟做到性能与功耗平衡
 
+找我: t.me/liaoshuangls
+
 ## 如何编译：
 理论来说在4-6系内核改动不是很大的情况都可编译，若不能请自行适配
 
@@ -154,4 +156,3 @@ modules V=1
 /root/5.15/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug  /mnt/e/1.CodeRepository/Android/Kernel/5.15-lsdriver/lsdriver.ko
 ```
 
-找我: t.me/liaoshuangls
