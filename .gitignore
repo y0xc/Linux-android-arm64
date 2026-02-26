@@ -1,0 +1,14 @@
+# 忽略编译生成的中间文件
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+*.cmd
+.tmp_versions/
+*.lds
+*.usyms
+
+# 忽略 VS Code 配置
+.vscode/
